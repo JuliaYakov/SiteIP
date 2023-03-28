@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ru.IP_LabWorks.IP.IpApplicationTests" tests="12" skipped="0" failures="0" errors="0" timestamp="2023-03-28T14:25:34" hostname="LAPTOP-PLQSJ5O7" time="0.627">
+  <properties/>
+  <testcase name="testDoubleDivision()" classname="ru.IP_LabWorks.IP.IpApplicationTests" time="0.581"/>
+  <testcase name="testStringtoLower()" classname="ru.IP_LabWorks.IP.IpApplicationTests" time="0.003"/>
+  <testcase name="testStringtoUpper()" classname="ru.IP_LabWorks.IP.IpApplicationTests" time="0.003"/>
+  <testcase name="testDoublePlus()" classname="ru.IP_LabWorks.IP.IpApplicationTests" time="0.004"/>
+  <testcase name="testStringStrange()" classname="ru.IP_LabWorks.IP.IpApplicationTests" time="0.003"/>
+  <testcase name="testIntDivision()" classname="ru.IP_LabWorks.IP.IpApplicationTests" time="0.003"/>
+  <testcase name="testIntMultiply()" classname="ru.IP_LabWorks.IP.IpApplicationTests" time="0.004"/>
+  <testcase name="testIntMinus()" classname="ru.IP_LabWorks.IP.IpApplicationTests" time="0.003"/>
+  <testcase name="testIntPlus()" classname="ru.IP_LabWorks.IP.IpApplicationTests" time="0.002"/>
+  <testcase name="testDoubleMyltiply()" classname="ru.IP_LabWorks.IP.IpApplicationTests" time="0.002"/>
+  <testcase name="testDoubleMinus()" classname="ru.IP_LabWorks.IP.IpApplicationTests" time="0.003"/>
+  <testcase name="testStringPlus()" classname="ru.IP_LabWorks.IP.IpApplicationTests" time="0.002"/>
+  <system-out><![CDATA[18:25:32.742 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [IpApplicationTests]: using SpringBootContextLoader
+18:25:32.749 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [ru.IP_LabWorks.IP.IpApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+18:25:32.750 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [ru.IP_LabWorks.IP.IpApplicationTests]: IpApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+18:25:32.792 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using ContextCustomizers for test class [IpApplicationTests]: [DisableObservabilityContextCustomizer, PropertyMappingContextCustomizer, Customizer, ExcludeFilterContextCustomizer, DuplicateJsonObjectContextCustomizer, MockitoContextCustomizer, TestRestTemplateContextCustomizer]
+18:25:32.913 [Test worker] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [C:\Users\Юля\Desktop\University\InternetProgramming\4sem\Lab\ip_pibd-22_yakovleva_y.v\build\classes\java\main\ru\IP_LabWorks\IP\IpApplication.class]
+18:25:32.924 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration ru.IP_LabWorks.IP.IpApplication for test class ru.IP_LabWorks.IP.IpApplicationTests
+18:25:33.079 [Test worker] DEBUG org.springframework.test.context.util.TestContextSpringFactoriesUtils - Skipping candidate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener] due to a missing dependency. Specify custom TestExecutionListener classes or make the default TestExecutionListener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+18:25:33.082 [Test worker] DEBUG org.springframework.test.context.util.TestContextSpringFactoriesUtils - Skipping candidate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener] due to a missing dependency. Specify custom TestExecutionListener classes or make the default TestExecutionListener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+18:25:33.084 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners for test class [IpApplicationTests]: [ServletTestExecutionListener, DirtiesContextBeforeModesTestExecutionListener, ApplicationEventsTestExecutionListener, MockitoTestExecutionListener, DependencyInjectionTestExecutionListener, DirtiesContextTestExecutionListener, EventPublishingTestExecutionListener, RestDocsTestExecutionListener, MockRestServiceServerResetTestExecutionListener, MockMvcPrintOnlyOnFailureTestExecutionListener, WebDriverTestExecutionListener, MockWebServiceServerTestExecutionListener, ResetMocksTestExecutionListener]
+18:25:33.086 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: class [IpApplicationTests], class annotated with @DirtiesContext [false] with mode [null]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.0.2)
+
+2023-03-28T18:25:33.480+04:00  INFO 16348 --- [    Test worker] ru.IP_LabWorks.IP.IpApplicationTests     : Starting IpApplicationTests using Java 17.0.6 with PID 16348 (started by Юля in C:\Users\Юля\Desktop\University\InternetProgramming\4sem\Lab\ip_pibd-22_yakovleva_y.v)
+2023-03-28T18:25:33.482+04:00  INFO 16348 --- [    Test worker] ru.IP_LabWorks.IP.IpApplicationTests     : No active profile set, falling back to 1 default profile: "default"
+2023-03-28T18:25:34.954+04:00  INFO 16348 --- [    Test worker] ru.IP_LabWorks.IP.IpApplicationTests     : Started IpApplicationTests in 1.78 seconds (process running for 6.51)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
